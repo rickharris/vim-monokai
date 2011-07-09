@@ -56,7 +56,7 @@ hi StatusLineNC guifg=#75715E guibg=#3E3D32 gui=none ctermfg=8 ctermbg=9 cterm=n
 hi TabLine      guifg=#75715E guibg=#3E3D32 gui=none ctermfg=8 ctermbg=9 cterm=none
 hi TabLineFill  guifg=fg guibg=#3E3D32 gui=none ctermfg=fg ctermbg=9 cterm=none
 hi TabLineSel   guifg=fg guibg=#3E3D32 gui=none ctermfg=fg ctermbg=9 cterm=none
-hi Title        guifg=#F92672 gui=none ctermfg=1 cterm=none
+hi Title        guifg=#F92672 gui=none ctermfg=12 cterm=none
 hi Visual       guibg=#49483E gui=none ctermbg=9 cterm=none
 "hi VisualNOS
 hi WarningMsg   guifg=#F92672 gui=none ctermfg=1 cterm=none
@@ -122,7 +122,7 @@ hi! link StorageClass Red
 hi! link Special      White
 "hi SpecialChar
 hi! link Tag          Green
-"hi Delimiter
+hi! link Delimiter    Red
 "hi SpecialComment
 "hi Debug
 "
@@ -161,16 +161,11 @@ hi link rubyDefine              Red
 hi link rubyRailsFilterMethod   Blue
 hi link rubyRailsRenderMethod   Blue
 " HTML
-hi link htmlTag         Normal
+hi link htmlTag         Comment
 hi link htmlTagName     Conditional
-hi link htmlEndTag      Normal
+hi link htmlEndTag      Comment
 hi link htmlLink        Normal
 hi link htmlArg         Green
-hi link htmlH1          Normal
-hi link htmlH2          Normal
-hi link htmlH3          Normal
-hi link htmlH5          Normal
-hi link htmlH6          Normal
 " CSS/SASS
 hi link cssTagName                  Yellow
 hi link sassVariable                Green
